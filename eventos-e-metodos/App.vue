@@ -9,6 +9,8 @@
     <ul v-if="showList">
       <li v-for="(task, index) in tasks" :key="index">
         {{ tasks[0].name }}
+
+        <button>&times;</button>
       </li>
     </ul>
   </div>
